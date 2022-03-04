@@ -14,6 +14,7 @@ test_image="http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz"
 test_label="http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz"
 
 
+
 x_train, x_test, y_train, y_test = train_test_split(mnist['data'], mnist['target'], random_state=0)
 clf=SVC(kernel ='rbf')
 clf.fit(x_train,y_train)
