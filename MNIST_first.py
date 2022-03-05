@@ -31,3 +31,4 @@ print('SVM Accuracy Score: %f' %accuracy_score(y_test,pred))
 
 
 
+
