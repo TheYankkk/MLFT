@@ -16,6 +16,7 @@ y_train=train_labels
 x_test=test_images.reshape((10000,784))
 y_test=test_labels
 
+
 #x_train, x_test, y_train, y_test = train_test_split(mnist['data'], mnist['target'], random_state=0)
 clf=SVC(kernel ='rbf')#using SVM model
 clf.fit(x_train,y_train)
